@@ -1,0 +1,607 @@
+{
+  "format": 1,
+  "grid": 16,
+  "sampling": "nearest",
+  "tints": {
+    "original": null,
+    "cool": "#7194a7",
+    "warm": "#c69559",
+    "moss": "#72966e",
+    "rose": "#af635f"
+  },
+  "tintOpacity": 0.24,
+  "sprites": {
+    "kos": {
+      "file": "kos.png",
+      "size": [
+        123,
+        150
+      ],
+      "anchor": [
+        61,
+        149
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -57,
+        -34,
+        114,
+        34
+      ],
+      "sockets": {
+        "awning": [
+          0,
+          -60
+        ],
+        "bunting": [
+          0,
+          -77
+        ],
+        "door": [
+          2,
+          1
+        ]
+      }
+    },
+    "toko": {
+      "file": "toko.png",
+      "size": [
+        119,
+        150
+      ],
+      "anchor": [
+        59,
+        149
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -58,
+        -36,
+        116,
+        36
+      ],
+      "sockets": {
+        "awning": [
+          0,
+          -65
+        ],
+        "bunting": [
+          0,
+          -87
+        ],
+        "door": [
+          0,
+          1
+        ]
+      }
+    },
+    "station": {
+      "file": "station.png",
+      "size": [
+        128,
+        115
+      ],
+      "anchor": [
+        64,
+        114
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -56,
+        -34,
+        112,
+        34
+      ],
+      "sockets": {
+        "awning": [
+          0,
+          -51
+        ],
+        "bunting": [
+          0,
+          -70
+        ],
+        "door": [
+          0,
+          1
+        ]
+      }
+    },
+    "warung": {
+      "file": "warung.png",
+      "size": [
+        119,
+        99
+      ],
+      "anchor": [
+        59,
+        98
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -50,
+        -29,
+        100,
+        29
+      ],
+      "sockets": {
+        "awning": [
+          0,
+          -49
+        ],
+        "bunting": [
+          0,
+          -67
+        ],
+        "door": [
+          0,
+          1
+        ]
+      }
+    },
+    "shade-tree": {
+      "file": "shade-tree.png",
+      "size": [
+        104,
+        109
+      ],
+      "anchor": [
+        52,
+        108
+      ],
+      "kind": "vegetation",
+      "layer": "object",
+      "footprint": [
+        -6,
+        -8,
+        12,
+        10
+      ],
+      "sockets": {}
+    },
+    "banana-plant": {
+      "file": "banana-plant.png",
+      "size": [
+        70,
+        66
+      ],
+      "anchor": [
+        35,
+        65
+      ],
+      "kind": "vegetation",
+      "layer": "object",
+      "footprint": [
+        -9,
+        -8,
+        18,
+        10
+      ],
+      "sockets": {}
+    },
+    "concrete-planter": {
+      "file": "concrete-planter.png",
+      "size": [
+        38,
+        39
+      ],
+      "anchor": [
+        19,
+        38
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -15,
+        -12,
+        30,
+        12
+      ],
+      "sockets": {
+        "surface": [
+          0,
+          -27
+        ]
+      }
+    },
+    "galon": {
+      "file": "galon.png",
+      "size": [
+        11,
+        19
+      ],
+      "anchor": [
+        5,
+        18
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -5,
+        -5,
+        10,
+        5
+      ],
+      "sockets": {}
+    },
+    "rice-sacks": {
+      "file": "rice-sacks.png",
+      "size": [
+        28,
+        20
+      ],
+      "anchor": [
+        14,
+        19
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -11,
+        -10,
+        22,
+        10
+      ],
+      "sockets": {}
+    },
+    "display-shelf": {
+      "file": "display-shelf.png",
+      "size": [
+        35,
+        45
+      ],
+      "anchor": [
+        17,
+        44
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -14,
+        -9,
+        28,
+        9
+      ],
+      "sockets": {
+        "surface": [
+          0,
+          -35
+        ]
+      }
+    },
+    "plastic-stool": {
+      "file": "plastic-stool.png",
+      "size": [
+        16,
+        20
+      ],
+      "anchor": [
+        8,
+        19
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -7,
+        -7,
+        14,
+        7
+      ],
+      "sockets": {}
+    },
+    "recycling-bin": {
+      "file": "recycling-bin.png",
+      "size": [
+        21,
+        31
+      ],
+      "anchor": [
+        10,
+        30
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -8,
+        -8,
+        16,
+        8
+      ],
+      "sockets": {}
+    },
+    "parked-scooter": {
+      "file": "parked-scooter.png",
+      "size": [
+        36,
+        42
+      ],
+      "anchor": [
+        18,
+        41
+      ],
+      "kind": "vehicle",
+      "layer": "object",
+      "footprint": [
+        -18,
+        -9,
+        36,
+        9
+      ],
+      "sockets": {}
+    },
+    "bunting": {
+      "file": "bunting.png",
+      "size": [
+        106,
+        31
+      ],
+      "anchor": [
+        53,
+        0
+      ],
+      "kind": "decoration",
+      "layer": "overhead",
+      "footprint": null,
+      "sockets": {}
+    },
+    "market-awning": {
+      "file": "market-awning.png",
+      "size": [
+        106,
+        42
+      ],
+      "anchor": [
+        53,
+        0
+      ],
+      "kind": "decoration",
+      "layer": "overhead",
+      "footprint": null,
+      "sockets": {}
+    },
+    "event-table": {
+      "file": "event-table.png",
+      "size": [
+        47,
+        25
+      ],
+      "anchor": [
+        23,
+        24
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -18,
+        -12,
+        36,
+        12
+      ],
+      "sockets": {
+        "surface": [
+          0,
+          -19
+        ]
+      }
+    },
+    "puddle": {
+      "file": "puddle.png",
+      "size": [
+        42,
+        19
+      ],
+      "anchor": [
+        21,
+        9
+      ],
+      "kind": "decoration",
+      "layer": "ground",
+      "footprint": null,
+      "sockets": {}
+    },
+    "angkot": {
+      "file": "angkot.png",
+      "size": [
+        83,
+        49
+      ],
+      "anchor": [
+        41,
+        48
+      ],
+      "kind": "vehicle",
+      "layer": "object",
+      "footprint": [
+        -33,
+        -16,
+        66,
+        16
+      ],
+      "sockets": {}
+    },
+    "bajaj": {
+      "file": "bajaj.png",
+      "size": [
+        53,
+        45
+      ],
+      "anchor": [
+        26,
+        44
+      ],
+      "kind": "vehicle",
+      "layer": "object",
+      "footprint": [
+        -19,
+        -12,
+        38,
+        12
+      ],
+      "sockets": {}
+    },
+    "becak": {
+      "file": "becak.png",
+      "size": [
+        58,
+        45
+      ],
+      "anchor": [
+        29,
+        44
+      ],
+      "kind": "vehicle",
+      "layer": "object",
+      "footprint": [
+        -23,
+        -12,
+        46,
+        12
+      ],
+      "sockets": {}
+    },
+    "sepeda-lipat": {
+      "file": "sepeda-lipat.png",
+      "size": [
+        38,
+        32
+      ],
+      "anchor": [
+        19,
+        31
+      ],
+      "kind": "vehicle",
+      "layer": "object",
+      "footprint": [
+        -19,
+        -7,
+        38,
+        7
+      ],
+      "sockets": {}
+    },
+    "brt-bus": {
+      "file": "brt-bus.png",
+      "size": [
+        147,
+        53
+      ],
+      "anchor": [
+        73,
+        52
+      ],
+      "kind": "vehicle",
+      "layer": "object",
+      "footprint": [
+        -66,
+        -19,
+        132,
+        19
+      ],
+      "sockets": {}
+    },
+    "commuter-railcar": {
+      "file": "commuter-railcar.png",
+      "size": [
+        193,
+        66
+      ],
+      "anchor": [
+        96,
+        65
+      ],
+      "kind": "vehicle",
+      "layer": "object",
+      "footprint": [
+        -88,
+        -22,
+        176,
+        22
+      ],
+      "sockets": {}
+    },
+    "ticket-gate": {
+      "file": "ticket-gate.png",
+      "size": [
+        28,
+        43
+      ],
+      "anchor": [
+        19,
+        42
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -7,
+        -8,
+        14,
+        8
+      ],
+      "sockets": {}
+    },
+    "bus-stop-sign": {
+      "file": "bus-stop-sign.png",
+      "size": [
+        10,
+        55
+      ],
+      "anchor": [
+        5,
+        54
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -3,
+        -4,
+        6,
+        4
+      ],
+      "sockets": {}
+    },
+    "rail-crossing-gate": {
+      "file": "rail-crossing-gate.png",
+      "size": [
+        85,
+        29
+      ],
+      "anchor": [
+        9,
+        28
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -6,
+        -7,
+        12,
+        7
+      ],
+      "sockets": {}
+    },
+    "bike-rack": {
+      "file": "bike-rack.png",
+      "size": [
+        47,
+        15
+      ],
+      "anchor": [
+        23,
+        14
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -19,
+        -10,
+        38,
+        10
+      ],
+      "sockets": {}
+    }
+  }
+}

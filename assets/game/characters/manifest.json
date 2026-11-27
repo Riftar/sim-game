@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "frame": [
+    96,
+    144
+  ],
+  "origin": [
+    48,
+    132
+  ],
+  "pixelsPerWorldUnit": 3,
+  "sampling": "nearest",
+  "directions": [
+    "back",
+    "front",
+    "left",
+    "right"
+  ],
+  "poses": [
+    "idle",
+    "contact-a",
+    "down-a",
+    "pass-a",
+    "contact-b",
+    "down-b",
+    "pass-b",
+    "wait-breathe",
+    "wait-shift",
+    "wave-rise",
+    "wave-open",
+    "wave-flick",
+    "tap-ready",
+    "tap-reach",
+    "tap-contact"
+  ],
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle"
+      ],
+      "durationsMs": [
+        1000
+      ],
+      "loop": true
+    },
+    "walk": {
+      "frames": [
+        "contact-a",
+        "down-a",
+        "pass-a",
+        "contact-b",
+        "down-b",
+        "pass-b"
+      ],
+      "durationsMs": [
+        95,
+        80,
+        100,
+        95,
+        80,
+        100
+      ],
+      "loop": true
+    },
+    "wait": {
+      "frames": [
+        "idle",
+        "wait-breathe",
+        "wait-shift",
+        "wait-breathe"
+      ],
+      "durationsMs": [
+        1050,
+        370,
+        550,
+        390
+      ],
+      "loop": true
+    },
+    "wave": {
+      "frames": [
+        "idle",
+        "wave-rise",
+        "wave-open",
+        "wave-flick",
+        "wave-open",
+        "wave-rise",
+        "idle"
+      ],
+      "durationsMs": [
+        100,
+        115,
+        120,
+        110,
+        130,
+        145,
+        130
+      ],
+      "loop": false
+    },
+    "ticket-tap": {
+      "frames": [
+        "idle",
+        "tap-ready",
+        "tap-reach",
+        "tap-contact",
+        "tap-reach",
+        "tap-ready",
+        "idle"
+      ],
+      "durationsMs": [
+        110,
+        130,
+        115,
+        205,
+        100,
+        125,
+        140
+      ],
+      "loop": false
+    }
+  },
+  "sheets": {
+    "commuter": "commuter.png",
+    "gray-haired-commuter": "gray-haired-commuter.png",
+    "ojek-courier": "ojek-courier.png",
+    "krl-commuter": "krl-commuter.png",
+    "toko-shopkeeper": "toko-shopkeeper.png"
+  }
+}
