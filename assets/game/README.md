@@ -15,3 +15,7 @@ The PNGs contain the final composited outfit for each character and the current 
 [Object catalog](objects/catalog.json) lists 27 transparent sprites from the refined environment kit and transport trial. It includes buildings, plants, shop props, vehicles, station equipment, and weather and event decorations.
 
 Position each object using its image anchor. Footprints and attachment sockets are relative to that anchor. A null footprint designates an object without blocking collision. Use the layer field to order ground, world, and overhead sprites. Transport footprints are starting values for map tests.
+
+## Places
+
+[Neighborhood exterior layouts](places/README.md) contains the four sample places and market-event variants, and the new building and prop PNGs.

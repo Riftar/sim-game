@@ -1,0 +1,626 @@
+{
+  "format": 1,
+  "grid": 16,
+  "sampling": "nearest",
+  "sprites": {
+    "bread-tray": {
+      "file": "bread-tray.png",
+      "size": [
+        31,
+        17
+      ],
+      "anchor": [
+        15,
+        16
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": null,
+      "sockets": {}
+    },
+    "table-fan": {
+      "file": "table-fan.png",
+      "size": [
+        20,
+        28
+      ],
+      "anchor": [
+        10,
+        27
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": null,
+      "sockets": {}
+    },
+    "cardboard-bundles": {
+      "file": "cardboard-bundles.png",
+      "size": [
+        33,
+        24
+      ],
+      "anchor": [
+        16,
+        23
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -12,
+        -9,
+        24,
+        9
+      ],
+      "sockets": {}
+    },
+    "handcart": {
+      "file": "handcart.png",
+      "size": [
+        46,
+        27
+      ],
+      "anchor": [
+        23,
+        26
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -17,
+        -15,
+        34,
+        15
+      ],
+      "sockets": {}
+    },
+    "sorting-station": {
+      "file": "sorting-station.png",
+      "size": [
+        49,
+        39
+      ],
+      "anchor": [
+        24,
+        38
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -20,
+        -13,
+        40,
+        13
+      ],
+      "sockets": {}
+    },
+    "blank-plaque": {
+      "file": "blank-plaque.png",
+      "size": [
+        33,
+        12
+      ],
+      "anchor": [
+        16,
+        11
+      ],
+      "kind": "prop",
+      "layer": "overhead",
+      "footprint": null,
+      "sockets": {}
+    },
+    "ac-condenser": {
+      "file": "ac-condenser.png",
+      "size": [
+        22,
+        18
+      ],
+      "anchor": [
+        11,
+        17
+      ],
+      "kind": "prop",
+      "layer": "overhead",
+      "footprint": null,
+      "sockets": {}
+    },
+    "roof-antenna": {
+      "file": "roof-antenna.png",
+      "size": [
+        33,
+        30
+      ],
+      "anchor": [
+        16,
+        29
+      ],
+      "kind": "prop",
+      "layer": "overhead",
+      "footprint": null,
+      "sockets": {}
+    },
+    "flower-planter": {
+      "file": "flower-planter.png",
+      "size": [
+        29,
+        32
+      ],
+      "anchor": [
+        14,
+        31
+      ],
+      "kind": "prop",
+      "layer": "object",
+      "footprint": [
+        -8,
+        -7,
+        16,
+        7
+      ],
+      "sockets": {}
+    },
+    "depok-bakery": {
+      "file": "depok-bakery.png",
+      "size": [
+        130,
+        110
+      ],
+      "anchor": [
+        65,
+        103
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -51,
+        -24,
+        102,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -5,
+          1
+        ],
+        "awning": [
+          0,
+          -59
+        ]
+      }
+    },
+    "depok-bakery-russet": {
+      "file": "depok-bakery-russet.png",
+      "size": [
+        151,
+        123
+      ],
+      "anchor": [
+        75,
+        115
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -59,
+        -24,
+        119,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -5,
+          1
+        ],
+        "awning": [
+          0,
+          -71
+        ]
+      }
+    },
+    "bekasi-repair-shop": {
+      "file": "bekasi-repair-shop.png",
+      "size": [
+        131,
+        112
+      ],
+      "anchor": [
+        65,
+        105
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -51,
+        -24,
+        103,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -16,
+          1
+        ],
+        "awning": [
+          0,
+          -54
+        ]
+      }
+    },
+    "bekasi-repair-shop-slate": {
+      "file": "bekasi-repair-shop-slate.png",
+      "size": [
+        152,
+        112
+      ],
+      "anchor": [
+        75,
+        105
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -59,
+        -24,
+        120,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -18,
+          1
+        ],
+        "awning": [
+          0,
+          -54
+        ]
+      }
+    },
+    "bekasi-bank-sampah": {
+      "file": "bekasi-bank-sampah.png",
+      "size": [
+        136,
+        120
+      ],
+      "anchor": [
+        68,
+        113
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -53,
+        -24,
+        107,
+        24
+      ],
+      "sockets": {
+        "door": [
+          0,
+          1
+        ],
+        "awning": [
+          0,
+          -56
+        ]
+      }
+    },
+    "bekasi-bank-sampah-sage": {
+      "file": "bekasi-bank-sampah-sage.png",
+      "size": [
+        122,
+        113
+      ],
+      "anchor": [
+        61,
+        107
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -47,
+        -24,
+        96,
+        24
+      ],
+      "sockets": {
+        "door": [
+          0,
+          1
+        ],
+        "awning": [
+          0,
+          -50
+        ]
+      }
+    },
+    "manggarai-balai-warga": {
+      "file": "manggarai-balai-warga.png",
+      "size": [
+        138,
+        113
+      ],
+      "anchor": [
+        69,
+        106
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -54,
+        -24,
+        109,
+        24
+      ],
+      "sockets": {
+        "door": [
+          0,
+          1
+        ],
+        "awning": [
+          0,
+          -53
+        ]
+      }
+    },
+    "manggarai-balai-warga-event": {
+      "file": "manggarai-balai-warga-event.png",
+      "size": [
+        138,
+        113
+      ],
+      "anchor": [
+        69,
+        106
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -54,
+        -24,
+        109,
+        24
+      ],
+      "sockets": {
+        "door": [
+          0,
+          1
+        ],
+        "awning": [
+          0,
+          -53
+        ]
+      }
+    },
+    "blok-m-ramen-ruko": {
+      "file": "blok-m-ramen-ruko.png",
+      "size": [
+        100,
+        189
+      ],
+      "anchor": [
+        50,
+        182
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -38,
+        -24,
+        77,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -4,
+          1
+        ],
+        "awning": [
+          0,
+          -138
+        ]
+      }
+    },
+    "blok-m-ramen-ruko-maroon": {
+      "file": "blok-m-ramen-ruko-maroon.png",
+      "size": [
+        90,
+        219
+      ],
+      "anchor": [
+        45,
+        211
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -34,
+        -24,
+        69,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -4,
+          1
+        ],
+        "awning": [
+          0,
+          -166
+        ]
+      }
+    },
+    "blok-m-thrift-records": {
+      "file": "blok-m-thrift-records.png",
+      "size": [
+        122,
+        156
+      ],
+      "anchor": [
+        61,
+        149
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -47,
+        -24,
+        95,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -3,
+          1
+        ],
+        "awning": [
+          0,
+          -103
+        ]
+      }
+    },
+    "blok-m-thrift-records-sage": {
+      "file": "blok-m-thrift-records-sage.png",
+      "size": [
+        142,
+        145
+      ],
+      "anchor": [
+        71,
+        138
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -55,
+        -24,
+        110,
+        24
+      ],
+      "sockets": {
+        "door": [
+          -4,
+          1
+        ],
+        "awning": [
+          0,
+          -92
+        ]
+      }
+    },
+    "blok-m-creative-venue": {
+      "file": "blok-m-creative-venue.png",
+      "size": [
+        160,
+        98
+      ],
+      "anchor": [
+        80,
+        91
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -63,
+        -24,
+        127,
+        24
+      ],
+      "sockets": {
+        "door": [
+          0,
+          1
+        ],
+        "awning": [
+          0,
+          -45
+        ]
+      }
+    },
+    "blok-m-creative-venue-event": {
+      "file": "blok-m-creative-venue-event.png",
+      "size": [
+        160,
+        98
+      ],
+      "anchor": [
+        80,
+        91
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -63,
+        -24,
+        127,
+        24
+      ],
+      "sockets": {
+        "door": [
+          0,
+          1
+        ],
+        "awning": [
+          0,
+          -45
+        ]
+      }
+    },
+    "blok-m-mrt-entry": {
+      "file": "blok-m-mrt-entry.png",
+      "size": [
+        158,
+        86
+      ],
+      "anchor": [
+        79,
+        79
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -63,
+        -24,
+        126,
+        24
+      ],
+      "sockets": {
+        "door": [
+          1,
+          1
+        ],
+        "awning": [
+          0,
+          -42
+        ]
+      }
+    },
+    "blok-m-mrt-entry-slate": {
+      "file": "blok-m-mrt-entry-slate.png",
+      "size": [
+        183,
+        97
+      ],
+      "anchor": [
+        92,
+        88
+      ],
+      "kind": "building",
+      "layer": "object",
+      "footprint": [
+        -73,
+        -24,
+        146,
+        24
+      ],
+      "sockets": {
+        "door": [
+          1,
+          2
+        ],
+        "awning": [
+          0,
+          -50
+        ]
+      }
+    }
+  }
+}

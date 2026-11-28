@@ -1,0 +1,377 @@
+{
+  "depok-bakery-lane": {
+    "name": "Depok bakery lane",
+    "canvas": [
+      400,
+      230
+    ],
+    "objects": [
+      [
+        "existing:kos",
+        65,
+        146
+      ],
+      [
+        "new:depok-bakery",
+        206,
+        145
+      ],
+      [
+        "existing:warung",
+        343,
+        150
+      ],
+      [
+        "existing:shade-tree",
+        32,
+        190
+      ],
+      [
+        "new:bread-tray",
+        235,
+        151
+      ],
+      [
+        "new:flower-planter",
+        156,
+        154
+      ],
+      [
+        "new:handcart",
+        279,
+        210
+      ],
+      [
+        "existing:galon",
+        323,
+        161
+      ]
+    ],
+    "points": {
+      "spawn": [
+        83,
+        204
+      ],
+      "handoff": [
+        206,
+        159
+      ],
+      "south-exit": [
+        360,
+        205
+      ]
+    },
+    "links": [
+      [
+        "spawn",
+        "handoff"
+      ],
+      [
+        "handoff",
+        "south-exit"
+      ]
+    ],
+    "missionHook": "Collect a bakery order or shoot a market-stall clip."
+  },
+  "bekasi-repair-and-reuse": {
+    "name": "Bekasi repair and reuse corner",
+    "canvas": [
+      400,
+      230
+    ],
+    "objects": [
+      [
+        "new:bekasi-repair-shop",
+        104,
+        145
+      ],
+      [
+        "new:bekasi-bank-sampah",
+        270,
+        145
+      ],
+      [
+        "existing:banana-plant",
+        368,
+        143
+      ],
+      [
+        "new:table-fan",
+        85,
+        145
+      ],
+      [
+        "new:sorting-station",
+        319,
+        161
+      ],
+      [
+        "new:cardboard-bundles",
+        282,
+        164
+      ],
+      [
+        "existing:concrete-planter",
+        27,
+        170
+      ],
+      [
+        "new:handcart",
+        170,
+        206
+      ]
+    ],
+    "points": {
+      "spawn": [
+        46,
+        205
+      ],
+      "repair-counter": [
+        88,
+        158
+      ],
+      "sorting-dropoff": [
+        279,
+        181
+      ],
+      "south-exit": [
+        367,
+        203
+      ]
+    },
+    "links": [
+      [
+        "spawn",
+        "repair-counter"
+      ],
+      [
+        "repair-counter",
+        "sorting-dropoff"
+      ],
+      [
+        "sorting-dropoff",
+        "south-exit"
+      ]
+    ],
+    "missionHook": "Deliver a fan for repair or drop off sorted cardboard."
+  },
+  "manggarai-balai-warga-courtyard": {
+    "name": "Manggarai balai warga courtyard",
+    "canvas": [
+      400,
+      230
+    ],
+    "objects": [
+      [
+        "existing:kos",
+        59,
+        135
+      ],
+      [
+        "new:manggarai-balai-warga",
+        211,
+        143
+      ],
+      [
+        "existing:shade-tree",
+        352,
+        143
+      ],
+      [
+        "new:flower-planter",
+        141,
+        161
+      ],
+      [
+        "existing:plastic-stool",
+        334,
+        171
+      ],
+      [
+        "existing:galon",
+        286,
+        163
+      ]
+    ],
+    "points": {
+      "spawn": [
+        65,
+        207
+      ],
+      "hall-entry": [
+        211,
+        155
+      ],
+      "event-checkin": [
+        225,
+        183
+      ],
+      "south-exit": [
+        356,
+        207
+      ]
+    },
+    "links": [
+      [
+        "spawn",
+        "hall-entry"
+      ],
+      [
+        "hall-entry",
+        "event-checkin"
+      ],
+      [
+        "event-checkin",
+        "south-exit"
+      ]
+    ],
+    "variants": {
+      "market-event": {
+        "replace": [
+          {
+            "index": 1,
+            "id": "new:manggarai-balai-warga-event"
+          }
+        ],
+        "add": [
+          [
+            "existing:event-table",
+            179,
+            202
+          ],
+          [
+            "existing:bunting",
+            210,
+            83
+          ]
+        ]
+      }
+    },
+    "missionHook": "Register volunteer supplies or set up the rainy-season campaign."
+  },
+  "blok-m-melawai-strip": {
+    "name": "Blok M Melawai strip",
+    "canvas": [
+      600,
+      268
+    ],
+    "objects": [
+      [
+        "new:blok-m-ramen-ruko",
+        77,
+        186
+      ],
+      [
+        "new:blok-m-thrift-records",
+        211,
+        188
+      ],
+      [
+        "new:blok-m-creative-venue",
+        367,
+        188
+      ],
+      [
+        "new:blok-m-mrt-entry",
+        521,
+        191
+      ],
+      [
+        "new:flower-planter",
+        132,
+        200
+      ],
+      [
+        "existing:parked-scooter",
+        172,
+        222
+      ],
+      [
+        "existing:bike-rack",
+        286,
+        238
+      ],
+      [
+        "existing:concrete-planter",
+        428,
+        200
+      ],
+      [
+        "existing:bus-stop-sign",
+        553,
+        219
+      ]
+    ],
+    "points": {
+      "west-entry": [
+        25,
+        246
+      ],
+      "food-pickup": [
+        76,
+        204
+      ],
+      "record-shop": [
+        216,
+        207
+      ],
+      "creative-stage": [
+        363,
+        214
+      ],
+      "mrt-entry": [
+        520,
+        209
+      ],
+      "east-exit": [
+        579,
+        243
+      ]
+    },
+    "links": [
+      [
+        "west-entry",
+        "food-pickup"
+      ],
+      [
+        "food-pickup",
+        "record-shop"
+      ],
+      [
+        "record-shop",
+        "creative-stage"
+      ],
+      [
+        "creative-stage",
+        "mrt-entry"
+      ],
+      [
+        "mrt-entry",
+        "east-exit"
+      ]
+    ],
+    "variants": {
+      "creative-market": {
+        "replace": [
+          {
+            "index": 2,
+            "id": "new:blok-m-creative-venue-event"
+          }
+        ],
+        "add": [
+          [
+            "existing:event-table",
+            377,
+            239
+          ],
+          [
+            "existing:bunting",
+            366,
+            115
+          ]
+        ]
+      }
+    },
+    "missionHook": "Pick up a dinner order, browse records, or help set up a creative market near the MRT."
+  }
+}
